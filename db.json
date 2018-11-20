@@ -1,255 +1,27 @@
 {
-  "auth": {
-    "access": {
-        "serviceCatalog": [
-            {
-                "endpoints": [
-                    {
-                        "versionId": "2",
-                        "tenantId": "-37",
-                        "publicURL": "https://ord.servers.api.rackspacecloud.com/v2/-37",
-                        "versionList": "https://ord.servers.api.rackspacecloud.com/",
-                        "versionInfo": "https://ord.servers.api.rackspacecloud.com/v2",
-                        "region": "ORD"
-                    },
-                    {
-                        "versionId": "2",
-                        "tenantId": "-37",
-                        "publicURL": "https://dfw.servers.api.rackspacecloud.com/v2/-37",
-                        "versionList": "https://dfw.servers.api.rackspacecloud.com/",
-                        "versionInfo": "https://dfw.servers.api.rackspacecloud.com/v2",
-                        "region": "DFW"
-                    }
-                ],
-                "name": "cloudServersOpenStack",
-                "type": "compute"
-            },
-            {
-                "endpoints": [
-                    {
-                        "tenantId": "-37",
-                        "publicURL": "https://automation.api.rackspacecloud.com/-37"
-                    }
-                ],
-                "name": "automation",
-                "type": "rax:automation"
-            },
-            {
-                "endpoints": [
-                    {
-                        "tenantId": "-37",
-                        "publicURL": "https://dfw.databases.api.rackspacecloud.com/v1.0/-37",
-                        "region": "DFW"
-                    },
-                    {
-                        "tenantId": "-37",
-                        "publicURL": "https://ord.databases.api.rackspacecloud.com/v1.0/-37",
-                        "region": "ORD"
-                    }
-                ],
-                "name": "cloudDatabases",
-                "type": "rax:database"
-            },
-            {
-                "endpoints": [
-                    {
-                        "tenantId": "-37",
-                        "publicURL": "https://dfw.blockstorage.api.rackspacecloud.com/v1/-37",
-                        "region": "DFW"
-                    },
-                    {
-                        "tenantId": "-37",
-                        "publicURL": "https://ord.blockstorage.api.rackspacecloud.com/v1/-37",
-                        "region": "ORD"
-                    }
-                ],
-                "name": "cloudBlockStorage",
-                "type": "volume"
-            },
-            {
-                "endpoints": [
-                    {
-                        "tenantId": "-37",
-                        "publicURL": "https://ord.networks.api.rackspacecloud.com/v2.0",
-                        "region": "ORD"
-                    }
-                ],
-                "name": "cloudNetworks",
-                "type": "network"
-            },
-            {
-                "endpoints": [
-                    {
-                        "tenantId": "-37",
-                        "publicURL": "https://dns.api.rackspacecloud.com/v1.0/-37"
-                    }
-                ],
-                "name": "cloudDNS",
-                "type": "rax:dns"
-            },
-            {
-                "endpoints": [
-                    {
-                        "tenantId": "-37",
-                        "publicURL": "https://ord.loadbalancers.api.rackspacecloud.com/v1.0/-37",
-                        "region": "ORD"
-                    },
-                    {
-                        "tenantId": "-37",
-                        "publicURL": "https://dfw.loadbalancers.api.rackspacecloud.com/v1.0/-37",
-                        "region": "DFW"
-                    }
-                ],
-                "name": "cloudLoadBalancers",
-                "type": "rax:load-balancer"
-            },
-            {
-                "endpoints": [
-                    {
-                        "tenantId": "-37",
-                        "publicURL": "https://monitoring.api.rackspacecloud.com/v1.0/-37"
-                    }
-                ],
-                "name": "cloudMonitoring",
-                "type": "rax:monitor"
-            },
-            {
-                "endpoints": [
-                    {
-                        "tenantId": "MossoCloudFS_6eebc512-593e-4d33-a7c3-c5f7b59b0a09",
-                        "publicURL": "https://cdn2.clouddrive.com/v1/MossoCloudFS_6eebc512-593e-4d33-a7c3-c5f7b59b0a09",
-                        "region": "ORD"
-                    },
-                    {
-                        "tenantId": "MossoCloudFS_6eebc512-593e-4d33-a7c3-c5f7b59b0a09",
-                        "publicURL": "https://cdn1.clouddrive.com/v1/MossoCloudFS_6eebc512-593e-4d33-a7c3-c5f7b59b0a09",
-                        "region": "DFW"
-                    }
-                ],
-                "name": "cloudFilesCDN",
-                "type": "rax:object-cdn"
-            },
-            {
-                "endpoints": [
-                    {
-                        "tenantId": "MossoCloudFS_6eebc512-593e-4d33-a7c3-c5f7b59b0a09",
-                        "publicURL": "https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_6eebc512-593e-4d33-a7c3-c5f7b59b0a09",
-                        "internalURL": "https://snet-storage101.ord1.clouddrive.com/v1/MossoCloudFS_6eebc512-593e-4d33-a7c3-c5f7b59b0a09",
-                        "region": "ORD"
-                    },
-                    {
-                        "tenantId": "MossoCloudFS_6eebc512-593e-4d33-a7c3-c5f7b59b0a09",
-                        "publicURL": "https://storage101.dfw1.clouddrive.com/v1/MossoCloudFS_6eebc512-593e-4d33-a7c3-c5f7b59b0a09",
-                        "internalURL": "https://snet-storage101.dfw1.clouddrive.com/v1/MossoCloudFS_6eebc512-593e-4d33-a7c3-c5f7b59b0a09",
-                        "region": "DFW"
-                    }
-                ],
-                "name": "cloudFiles",
-                "type": "object-store"
-            }
-        ],
-        "user": {
-            "RAX-AUTH:sessionInactivityTimeout": "PT12H",
-            "RAX-AUTH:defaultRegion": "",
-            "roles": [
-                {
-                    "name": "object-store:default",
-                    "tenantId": "MossoCloudFS_6eebc512-593e-4d33-a7c3-c5f7b59b0a09",
-                    "description": "A Role that allows a user access to keystone Service methods",
-                    "id": "5"
-                },
-                {
-                    "name": "compute:default",
-                    "tenantId": "-37",
-                    "description": "A Role that allows a user access to keystone Service methods",
-                    "id": "6"
-                },
-                {
-                    "name": "identity:tenant-access",
-                    "tenantId": "-37",
-                    "description": "A role to grant visibility to a tenant",
-                    "id": "10000411"
-                },
-                {
-                    "name": "identity:tenant-access",
-                    "tenantId": "MossoCloudFS_6eebc512-593e-4d33-a7c3-c5f7b59b0a09",
-                    "description": "A role to grant visibility to a tenant",
-                    "id": "10000411"
-                },
-                {
-                    "name": "identity:admin",
-                    "description": "Admin Role.",
-                    "id": "1"
-                },
-                {
-                    "name": "automation.newton.rackspace.com",
-                    "description": "A Role that allows a user access to Automation service methods",
-                    "id": "10000308"
-                },
-                {
-                    "name": "checkmate",
-                    "description": "Checkmate Access role",
-                    "id": "10000150"
-                },
-                {
-                    "name": "monitoring:service-admin",
-                    "description": "Service admin role for Monitoring access. Assign only to service users",
-                    "id": "10000287"
-                },
-                {
-                    "name": "configuration:validator",
-                    "description": "Configuration Service API Validator",
-                    "id": "10000345"
-                }
-            ],
-            "name": "serviceinnovati",
-            "id": "10000374",
-            "RAX-AUTH:domainId": "2aadb0451ddc409f922dada2f0c4851e"
-        },
-        "token": {
-            "expires": "2018-11-21T05:59:39.655Z",
-            "RAX-AUTH:issued": "2018-11-20T06:04:42.655Z",
-            "RAX-AUTH:authenticatedBy": [
-                "PASSWORD"
-            ],
-            "id": "AABv0gI5k5iOQfIm3gj8UXkA37lGRhcRDWzV-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxZNepnL11uAfuSMxC88BubKJMw_izIX3OL62gRoGiKZaFIoZfkIJNahlNdqjcD",
-            "tenant": {
-                "name": "-37",
-                "id": "-37"
-            }
-        }
+  "auth": {{
+  "access": {
+    "token": {
+      "expires": "2018-11-21T05:59:39.655Z",
+      "RAX-AUTH:issued": "2018-11-20T06:04:42.655Z",
+      "RAX-AUTH:authenticatedBy": [
+        "PASSWORD"
+      ],
+      "id": "AABv0gI5k5iOQfIm3gj8UXkA37lGRhcRDWzV-khdfHJYQ7al6u48BfadkEQZNepnL11uAfuSMxC88BubKJMw_izIX3OL62gRoGiKZaFIoZfkIJNahlNdqjcD",
+      "tenant": {
+        "name": "-37",
+        "id": "-37"
+      }
     }
+  }
+}
 }
   "Event":{{
   "ID": "025940af-c248-48b0-99d9-7f9378184d60",
   "Tenant": "hybrid:5057285",
   "Name": "Device Check",
   "Source": "passwordrotation.rackspace.com",
-  "Classification": [
-    "rack password rotation"
-  ],
   "ExecutionTimestamp": "2018-10-09T21:53:44.5813778Z",
-  "Stream": {
-    "ID": "1282a861-e299-4080-a2e5-2979fadcef74",
-    "Status": null
-  },
-  "Incident": {
-    "Rel": null,
-    "Href": null,
-    "Status": null
-  },
-  "Targets": [
-    {
-      "rel": "http://schemas.automation.rackspacecloud.com/targets/device",
-      "href": "http://core.rackspace.com/py/core/#/device/973285",
-      "exceptions": null
-    }
-  ],
-  "Metadata": {
-    "FullText": "Rotate immediately",
-    "DeviceNumber": "973285",
-    "AccountNumber": "5057285"
-  },
   "Automation": {
     "Status": "FAILED",
     "StatusDescription": "",
@@ -288,118 +60,9 @@
     },
     "SystemType": "prod-a",
     "ProcessLink": null,
-    "LastFailureException": {
-      "ExceptionAt": "2018-10-09T21:54:58.9215215Z",
-      "Message": "{\"ExternalSystem\":\"action.v25.Device-Check_Get-HA-PAIR-V3\",\"EventId\":\"1ebbf325-04b5-421f-ba3f-966f329f745b\",\"GroupName\":\"Aarons Get-HAPair Device\",\"GroupId\":\"Aarons Get-HAPair Device\",\"ApiName\":\"Aarons Get-HAPair Device\",\"ApiId\":\"Aarons Get-HAPair Device\",\"RequestEntity\":{\"URL\":\"https://service.nsi.rackspace.com/973285/failover_device\",\"Method\":\"GET\",\"Headers\":{\"Content-Type\":\"application/json\",\"authtoken\":\"**********(ApplicationConfig.globalauth.core.session)\"},\"Payload\":\"\",\"Timeout\":600000,\"DontAllowAutoRedirect\":false,\"RawURL\":\"https://service.nsi.rackspace.com/$[DataStore.ExternalParams.DeviceNumber]/failover_device\"},\"Exception\":\"The remote server returned an error: (504) Gateway Timeout.\",\"InnerException\":\"{\\\"api_ver\\\":\\\"2.6.7\\\",\\\"connection_id\\\":\\\"e101906a-b420-4686-8f66-a31f956b6f6b\\\",\\\"data\\\":{\\\"this_device\\\":973285,\\\"failover_device\\\":0,\\\"evaluation_data\\\":\\\"from_core\\\",\\\"core_failover_device\\\":0,\\\"failover_enabled\\\":false,\\\"is_active\\\":false,\\\"version\\\":null,\\\"message\\\":\\\"{\\\\\\\"api_ver\\\\\\\":\\\\\\\"2.2.4\\\\\\\",\\\\\\\"connection_id\\\\\\\":\\\\\\\"3d683407-ae46-457e-a1f5-61ea996d8367\\\\\\\",\\\\\\\"data\\\\\\\":{\\\\\\\"host\\\\\\\":\\\\\\\"72.32.179.140\\\\\\\",\\\\\\\"command\\\\\\\":\\\\\\\"show failover\\\\\\\",\\\\\\\"prompt\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"re_prompt\\\\\\\":\\\\\\\"\\\\\\\\\\\\\\\\S+#\\\\\\\\\\\\\\\\s+$\\\\\\\",\\\\\\\"timeout\\\\\\\":20,\\\\\\\"response\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"platform\\\\\\\":\\\\\\\"asa\\\\\\\",\\\\\\\"user_info\\\\\\\":{\\\\\\\"username\\\\\\\":\\\\\\\"ratpatrol\\\\\\\"}},\\\\\\\"error\\\\\\\":\\\\\\\"ssh: handshake failed: ssh: unable to authenticate, attempted methods [none password], no supported methods remain\\\\\\\",\\\\\\\"success\\\\\\\":false}\\\"},\\\"error\\\":\\\"unable to connect to 72.32.179.140 from automation environment\\\",\\\"success\\\":false}\"}",
-      "StackTrace": "   at automation.components.apiintegratorv25.v1.BO.CallExecutor.ExecuteAPI(String parentApiId, String apiID, Int32 recursionDepth) in c:\\jenkins\\workspace\\dotnet.components.apiintegratorv25.v1_master_builder\\src\\app\\BO\\CallExecutor.cs:line 182\r\n   at automation.components.apiintegratorv25.v1.APIIntegrator.Execute(String ExternalSystemName, String ExternalSystemID, String APIGroupID, SerializableDictionary InputParams) in c:\\jenkins\\workspace\\dotnet.components.apiintegratorv25.v1_master_builder\\src\\app\\APIIntegrator.cs:line 149\r\n   at automation.components.processv25.v1.Definition.ActionExecution.APIExecution(Action action) in c:\\jenkins\\workspace\\dotnet.components.processv25.v1_master_builder\\src\\app\\Definition\\ActionExecution.cs:line 169\r\n   at automation.components.processv25.v1.Definition.ActionExecution.ExecuteAction(Action action) in c:\\jenkins\\workspace\\dotnet.components.processv25.v1_master_builder\\src\\app\\Definition\\ActionExecution.cs:line 51\r\n   at AutomationServices.EventAggregation.ProcessControlEngine.V25.PcemExecutionStep(String nextFamilyGuid, Action processAction, ExecutionStep pcemExecutionStep, List`1& outResultForAction, Boolean& isNestedAction)\r\n   at AutomationServices.EventAggregation.ProcessControlEngine.V25.ProcessActionByType(String actionFamilyGuid, Action processAction, Boolean& isPauseProcess, Boolean isRetrying, List`1& outResultForAction, Boolean& isNextFlowIdentified, Boolean& isNestedAction)\r\n   at AutomationServices.EventAggregation.ProcessControlEngine.V25.ExecuteAction(String& actionFamilyGuid, String& nextActionFamilyGuid)",
-      "InnerException": {
-        "ExceptionAt": "2018-10-09T21:54:58.9215215Z",
-        "Message": "The remote server returned an error: (504) Gateway Timeout.",
-        "StackTrace": "   at automation.components.apiintegratorv25.v1.BO.CallExecutor.HandlingWebException(WebException ex) in c:\\jenkins\\workspace\\dotnet.components.apiintegratorv25.v1_master_builder\\src\\app\\BO\\CallExecutor.cs:line 582\r\n   at automation.components.apiintegratorv25.v1.BO.CallExecutor.ProcessAPI(String parentApiId, String apiID) in c:\\jenkins\\workspace\\dotnet.components.apiintegratorv25.v1_master_builder\\src\\app\\BO\\CallExecutor.cs:line 284\r\n   at automation.components.apiintegratorv25.v1.BO.CallExecutor.ExecuteAPI(String parentApiId, String apiID, Int32 recursionDepth) in c:\\jenkins\\workspace\\dotnet.components.apiintegratorv25.v1_master_builder\\src\\app\\BO\\CallExecutor.cs:line 153",
-        "InnerException": null
-      }
-    },
     "LastFailureRetryCount": 0,
     "LastFailureInServer": "RBAI-PA-PCE09",
     "LastFailureRetryAt": "2018-10-09T21:54:58.9215215Z",
-    "StatusLogs": [
-      {
-        "Status": "ACCEPTED",
-        "StatusAt": "2018-10-09T21:53:44.5813778Z",
-        "StatusDescription": null,
-        "Instance": "RBAI-PA-EVENT01",
-        "UserName": "RBAI-PA-EVENT01",
-        "Reason": null
-      },
-      {
-        "Status": "ENQUEUED_PREPROCESSING",
-        "StatusAt": "2018-10-09T21:53:44.6126321Z",
-        "StatusDescription": null,
-        "Instance": "RBAI-PA-EVENT01",
-        "UserName": "RBAI-PA-EVENT01",
-        "Reason": null
-      },
-      {
-        "Status": "PREPROCESSING",
-        "StatusAt": "2018-10-09T21:53:44.2047358Z",
-        "StatusDescription": null,
-        "Instance": "RBAI-PA-EPP01",
-        "UserName": "RBAI-PA-EPP01",
-        "Reason": null
-      },
-      {
-        "Status": "ENQUEUED_PROCESSING",
-        "StatusAt": "2018-10-09T21:53:44.4234914Z",
-        "StatusDescription": null,
-        "Instance": "RBAI-PA-EPP01",
-        "UserName": "RBAI-PA-EPP01",
-        "Reason": null
-      },
-      {
-        "Status": "ENQUEUED_PROCESSING",
-        "StatusAt": "2018-10-09T21:53:44.5641206Z",
-        "StatusDescription": "Event sent to Queue by RBAI-PA-EPP01$, ",
-        "Instance": "RBAI-PA-EPP01",
-        "UserName": "RBAI-PA-EPP01",
-        "Reason": null
-      },
-      {
-        "Status": "PROCESSING",
-        "StatusAt": "2018-10-09T21:53:44.1178036Z",
-        "StatusDescription": null,
-        "Instance": "RBAI-PA-PCE17",
-        "UserName": "RBAI-PA-PCE17",
-        "Reason": null
-      },
-      {
-        "Status": "WAITINGFORCALLBACK",
-        "StatusAt": "2018-10-09T21:53:46.2271945Z",
-        "StatusDescription": "Waiting for Call Back to resume processing, With timeout 10/14/2018 18:33:46 UTC. ",
-        "Instance": "RBAI-PA-PCE17",
-        "UserName": "RBAI-PA-PCE17",
-        "Reason": null
-      },
-      {
-        "Status": "ENQUEUED_PROCESSING",
-        "StatusAt": "2018-10-09T21:54:20.5443329Z",
-        "StatusDescription": "Rerun by businessautomation",
-        "Instance": "RBAI-PA-EVENT04",
-        "UserName": "RBAI-PA-EVENT04",
-        "Reason": null
-      },
-      {
-        "Status": "ENQUEUED_PROCESSING",
-        "StatusAt": "2018-10-09T21:54:20.7943338Z",
-        "StatusDescription": "Event sent to Queue by events, ",
-        "Instance": "RBAI-PA-EVENT04",
-        "UserName": "RBAI-PA-EVENT04",
-        "Reason": null
-      },
-      {
-        "Status": "PROCESSING",
-        "StatusAt": "2018-10-09T21:54:21.1551003Z",
-        "StatusDescription": null,
-        "Instance": "RBAI-PA-PCE09",
-        "UserName": "RBAI-PA-PCE09",
-        "Reason": null
-      },
-      {
-        "Status": "COMPLETEDWITHERROR",
-        "StatusAt": "2018-10-09T21:55:01.015316Z",
-        "StatusDescription": null,
-        "Instance": "RBAI-PA-PCE09",
-        "UserName": "RBAI-PA-PCE09",
-        "Reason": null
-      },
-      {
-        "Status": "FAILED",
-        "StatusAt": "2018-10-09T21:55:01.0934444Z",
-        "StatusDescription": null,
-        "Instance": "RBAI-PA-PCE09",
-        "UserName": "RBAI-PA-PCE09",
-        "Reason": null
-      }
-    ],
     "VariableGroup": null,
     "QueuePriority": 1,
     "StatusLogSource": 0,
@@ -411,18 +74,6 @@
     "TypeRegistry": "",
     "Source": ""
   },
-  "SavedEntities": [
-    "en",
-    "src",
-    "strm",
-    "d",
-    "tt",
-    "all",
-    "TimeUUID:caea9a12-cc0d-11e8-99d9-7f9378184d60",
-    "t:status",
-    "tar",
-    "t"
-  ],
   "SaveIndex": null,
   "EventDataSaveVersion": null,
   "PreviousStatus": "ENQUEUED_PROCESSING"
