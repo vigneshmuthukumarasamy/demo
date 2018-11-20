@@ -1,5 +1,5 @@
 {
-  "auth":{{
+  "auth":{
   "access": {
     "token": {
       "expires": "2018-11-21T05:59:39.655Z",
@@ -14,10 +14,10 @@
       }
     }
   }
-}
+
 }
 "Event":{
-{
+
   "ID": "025940af-c248-48b0-99d9-7f9378184d60",
   "Tenant": "hybrid:5057285",
   "Name": "Device Check",
@@ -79,5 +79,5 @@
   "EventDataSaveVersion": null,
   "PreviousStatus": "ENQUEUED_PROCESSING"
 }
-}
+
 }
