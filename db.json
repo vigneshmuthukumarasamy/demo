@@ -1,78 +1,14 @@
 {
-  "auth":{
-  "access": {
-    "token": {
-      "expires": "2018-11-21T05:59:39.655Z",
-      "RAX-AUTH:issued": "2018-11-20T06:04:42.655Z",
-      "RAX-AUTH:authenticatedBy": [
-        "PASSWORD"
-      ],
-      "id": "AABv0gI5k5iOQfIm3gj8UXkA37lGRhcRDWzV-khdfHJYQ7al6u48BfadkEQZNepnL11uAfuSMxC88BubKJMw_izIX3OL62gRoGiKZaFIoZfkIJNahlNdqjcD",
-      "tenant": {
-        "name": "-37",
-        "id": "-37"
-      }
-    },
-  "event": {
-  "ID": "025940af-c248-48b0-99d9-7f9378184d60",
-  "Tenant": "hybrid:5057285",
-  "Name": "Device Check",
-  "Source": "passwordrotation.rackspace.com",
-  "ExecutionTimestamp": "2018-10-09T21:53:44.5813778Z",
-  "Automation": {
-    "Status": "FAILED",
-    "StatusDescription": "",
-    "StatusAt": "2018-10-09T21:55:01.0934444Z",
-    "ExpectedDequeueTime": "0001-01-01T00:00:00",
-    "Outputs": null,
-    "ProcessingQueues": {
-      "PCEQueue": {
-        "queueType": null,
-        "endPoint": null,
-        "queueName": "PCEInput-LOW"
-      }
-    },
-    "ProcessHierarchies": null,
-    "FilterSettings": null,
-    "BlockedBy": null,
-    "BlockedAt": "0001-01-01T00:00:00",
-    "Process": null,
-    "ProcessV25": {
-      "Name": "passwordrotation.rackspace.com:rack password rotation:Device Check",
-      "ID": "passwordrotation.rackspace.com:rack password rotation:Device Check",
-      "Tenant": "internal",
-      "Environment": null,
-      "Status": "Enqueued",
-      "Matrix": [
-        {
-          "Type": "Process",
-          "Key": "passwordrotation.rackspace.com:rack password rotation:Device Check"
-        }
-      ],
-      "Stacks": [],
-      "lastmodifieddate": "2018-09-24T21:16:15.9511034Z",
-      "lastmodifiedby": "idri3146",
-      "description": null,
-      "permissions": null
-    },
-    "SystemType": "prod-a",
-    "ProcessLink": null,
-    "LastFailureRetryCount": 0,
-    "LastFailureInServer": "RBAI-PA-PCE09",
-    "LastFailureRetryAt": "2018-10-09T21:54:58.9215215Z",
-    "VariableGroup": null,
-    "QueuePriority": 1,
-    "StatusLogSource": 0,
-    "ProcessHierarchy": "",
-    "ProcessHierarchyValue": "",
-    "OrgHierarchy": "",
-    "OrgHierarchyValue": "",
-    "AlertRegistry": "",
-    "TypeRegistry": "",
-    "Source": ""
-  },
-  "SaveIndex": null,
-  "EventDataSaveVersion": null,
-  "PreviousStatus": "ENQUEUED_PROCESSING"
-}
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
