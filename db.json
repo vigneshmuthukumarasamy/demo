@@ -1,8 +1,226 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "auth": [
+   {
+    "access": {
+        "serviceCatalog": [
+            {
+                "endpoints": [
+                    {
+                        "versionId": "2",
+                        "tenantId": "-37",
+                        "publicURL": "https://ord.servers.api.rackspacecloud.com/v2/-37",
+                        "versionList": "https://ord.servers.api.rackspacecloud.com/",
+                        "versionInfo": "https://ord.servers.api.rackspacecloud.com/v2",
+                        "region": "ORD"
+                    },
+                    {
+                        "versionId": "2",
+                        "tenantId": "-37",
+                        "publicURL": "https://dfw.servers.api.rackspacecloud.com/v2/-37",
+                        "versionList": "https://dfw.servers.api.rackspacecloud.com/",
+                        "versionInfo": "https://dfw.servers.api.rackspacecloud.com/v2",
+                        "region": "DFW"
+                    }
+                ],
+                "name": "cloudServersOpenStack",
+                "type": "compute"
+            },
+            {
+                "endpoints": [
+                    {
+                        "tenantId": "-37",
+                        "publicURL": "https://automation.api.rackspacecloud.com/-37"
+                    }
+                ],
+                "name": "automation",
+                "type": "rax:automation"
+            },
+            {
+                "endpoints": [
+                    {
+                        "tenantId": "-37",
+                        "publicURL": "https://dfw.databases.api.rackspacecloud.com/v1.0/-37",
+                        "region": "DFW"
+                    },
+                    {
+                        "tenantId": "-37",
+                        "publicURL": "https://ord.databases.api.rackspacecloud.com/v1.0/-37",
+                        "region": "ORD"
+                    }
+                ],
+                "name": "cloudDatabases",
+                "type": "rax:database"
+            },
+            {
+                "endpoints": [
+                    {
+                        "tenantId": "-37",
+                        "publicURL": "https://dfw.blockstorage.api.rackspacecloud.com/v1/-37",
+                        "region": "DFW"
+                    },
+                    {
+                        "tenantId": "-37",
+                        "publicURL": "https://ord.blockstorage.api.rackspacecloud.com/v1/-37",
+                        "region": "ORD"
+                    }
+                ],
+                "name": "cloudBlockStorage",
+                "type": "volume"
+            },
+            {
+                "endpoints": [
+                    {
+                        "tenantId": "-37",
+                        "publicURL": "https://ord.networks.api.rackspacecloud.com/v2.0",
+                        "region": "ORD"
+                    }
+                ],
+                "name": "cloudNetworks",
+                "type": "network"
+            },
+            {
+                "endpoints": [
+                    {
+                        "tenantId": "-37",
+                        "publicURL": "https://dns.api.rackspacecloud.com/v1.0/-37"
+                    }
+                ],
+                "name": "cloudDNS",
+                "type": "rax:dns"
+            },
+            {
+                "endpoints": [
+                    {
+                        "tenantId": "-37",
+                        "publicURL": "https://ord.loadbalancers.api.rackspacecloud.com/v1.0/-37",
+                        "region": "ORD"
+                    },
+                    {
+                        "tenantId": "-37",
+                        "publicURL": "https://dfw.loadbalancers.api.rackspacecloud.com/v1.0/-37",
+                        "region": "DFW"
+                    }
+                ],
+                "name": "cloudLoadBalancers",
+                "type": "rax:load-balancer"
+            },
+            {
+                "endpoints": [
+                    {
+                        "tenantId": "-37",
+                        "publicURL": "https://monitoring.api.rackspacecloud.com/v1.0/-37"
+                    }
+                ],
+                "name": "cloudMonitoring",
+                "type": "rax:monitor"
+            },
+            {
+                "endpoints": [
+                    {
+                        "tenantId": "MossoCloudFS_6eebc512-593e-4d33-a7c3-c5f7b59b0a09",
+                        "publicURL": "https://cdn2.clouddrive.com/v1/MossoCloudFS_6eebc512-593e-4d33-a7c3-c5f7b59b0a09",
+                        "region": "ORD"
+                    },
+                    {
+                        "tenantId": "MossoCloudFS_6eebc512-593e-4d33-a7c3-c5f7b59b0a09",
+                        "publicURL": "https://cdn1.clouddrive.com/v1/MossoCloudFS_6eebc512-593e-4d33-a7c3-c5f7b59b0a09",
+                        "region": "DFW"
+                    }
+                ],
+                "name": "cloudFilesCDN",
+                "type": "rax:object-cdn"
+            },
+            {
+                "endpoints": [
+                    {
+                        "tenantId": "MossoCloudFS_6eebc512-593e-4d33-a7c3-c5f7b59b0a09",
+                        "publicURL": "https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_6eebc512-593e-4d33-a7c3-c5f7b59b0a09",
+                        "internalURL": "https://snet-storage101.ord1.clouddrive.com/v1/MossoCloudFS_6eebc512-593e-4d33-a7c3-c5f7b59b0a09",
+                        "region": "ORD"
+                    },
+                    {
+                        "tenantId": "MossoCloudFS_6eebc512-593e-4d33-a7c3-c5f7b59b0a09",
+                        "publicURL": "https://storage101.dfw1.clouddrive.com/v1/MossoCloudFS_6eebc512-593e-4d33-a7c3-c5f7b59b0a09",
+                        "internalURL": "https://snet-storage101.dfw1.clouddrive.com/v1/MossoCloudFS_6eebc512-593e-4d33-a7c3-c5f7b59b0a09",
+                        "region": "DFW"
+                    }
+                ],
+                "name": "cloudFiles",
+                "type": "object-store"
+            }
+        ],
+        "user": {
+            "RAX-AUTH:sessionInactivityTimeout": "PT12H",
+            "RAX-AUTH:defaultRegion": "",
+            "roles": [
+                {
+                    "name": "object-store:default",
+                    "tenantId": "MossoCloudFS_6eebc512-593e-4d33-a7c3-c5f7b59b0a09",
+                    "description": "A Role that allows a user access to keystone Service methods",
+                    "id": "5"
+                },
+                {
+                    "name": "compute:default",
+                    "tenantId": "-37",
+                    "description": "A Role that allows a user access to keystone Service methods",
+                    "id": "6"
+                },
+                {
+                    "name": "identity:tenant-access",
+                    "tenantId": "-37",
+                    "description": "A role to grant visibility to a tenant",
+                    "id": "10000411"
+                },
+                {
+                    "name": "identity:tenant-access",
+                    "tenantId": "MossoCloudFS_6eebc512-593e-4d33-a7c3-c5f7b59b0a09",
+                    "description": "A role to grant visibility to a tenant",
+                    "id": "10000411"
+                },
+                {
+                    "name": "identity:admin",
+                    "description": "Admin Role.",
+                    "id": "1"
+                },
+                {
+                    "name": "automation.newton.rackspace.com",
+                    "description": "A Role that allows a user access to Automation service methods",
+                    "id": "10000308"
+                },
+                {
+                    "name": "checkmate",
+                    "description": "Checkmate Access role",
+                    "id": "10000150"
+                },
+                {
+                    "name": "monitoring:service-admin",
+                    "description": "Service admin role for Monitoring access. Assign only to service users",
+                    "id": "10000287"
+                },
+                {
+                    "name": "configuration:validator",
+                    "description": "Configuration Service API Validator",
+                    "id": "10000345"
+                }
+            ],
+            "name": "serviceinnovati",
+            "id": "10000374",
+            "RAX-AUTH:domainId": "2aadb0451ddc409f922dada2f0c4851e"
+        },
+        "token": {
+            "expires": "2018-11-21T05:59:39.655Z",
+            "RAX-AUTH:issued": "2018-11-20T06:04:42.655Z",
+            "RAX-AUTH:authenticatedBy": [
+                "PASSWORD"
+            ],
+            "id": "AABv0gI5k5iOQfIm3gj8UXkA37lGRhcRDWzV-khdfHJYQ7al6u48BfadkEQZNepnL11uAfuSMxC88BubKJMw_izIX3OL62gRoGiKZaFIoZfkIJNahlNdqjcD",
+            "tenant": {
+                "name": "-37",
+                "id": "-37"
+            }
+        }
+    }
+}
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
