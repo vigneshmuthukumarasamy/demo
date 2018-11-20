@@ -12,12 +12,8 @@
         "name": "-37",
         "id": "-37"
       }
-    }
-  }
-
-}
-"Event":{
-
+    },
+  "event": {
   "ID": "025940af-c248-48b0-99d9-7f9378184d60",
   "Tenant": "hybrid:5057285",
   "Name": "Device Check",
@@ -79,5 +75,4 @@
   "EventDataSaveVersion": null,
   "PreviousStatus": "ENQUEUED_PROCESSING"
 }
-
 }
