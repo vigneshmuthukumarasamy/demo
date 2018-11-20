@@ -1,5 +1,5 @@
 {
-  "auth": {
+  "auth":{{
   "access": {
     "token": {
       "expires": "2018-11-21T05:59:39.655Z",
@@ -14,9 +14,10 @@
       }
     }
   }
-
-
-  "Event":{
+}
+}
+"Event":{
+{
   "ID": "025940af-c248-48b0-99d9-7f9378184d60",
   "Tenant": "hybrid:5057285",
   "Name": "Device Check",
@@ -78,20 +79,5 @@
   "EventDataSaveVersion": null,
   "PreviousStatus": "ENQUEUED_PROCESSING"
 }
-{
-  "access": {
-    "token": {
-      "expires": "2018-11-21T05:59:39.655Z",
-      "RAX-AUTH:issued": "2018-11-20T06:04:42.655Z",
-      "RAX-AUTH:authenticatedBy": [
-        "PASSWORD"
-      ],
-      "id": "AABv0gI5k5iOQfIm3gj8UXkA37lGRhcRDWzV-khdfHJYQ7al6u48BfadkEQZNepnL11uAfuSMxC88BubKJMw_izIX3OL62gRoGiKZaFIoZfkIJNahlNdqjcD",
-      "tenant": {
-        "name": "-37",
-        "id": "-37"
-      }
-    }
-  }
 }
 }
